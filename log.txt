@@ -1,0 +1,214 @@
+uitka:   Version '2.7.16' on Python 3.13 (flavor 'CPython Official') commercial grade 'not installed'.
+Nuitka-Optimization: exploit.py:1 : new_statements : Reduced scope of tried block. Trailing statements at exploit.py:1/<Node 'STATEMENT_RELEASE_VARIABLE_TEMP' with {'variable_name': 'tuple_unpack_1__source_iter', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'lllllllllllllll', 'is_temp': False, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_1', 'is_temp': True, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'llllllllllllllI', 'is_temp': False, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_2', 'is_temp': True, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'lllllllllllllIl', 'is_temp': False, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_3', 'is_temp': True, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'lllllllllllllII', 'is_temp': False, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_4', 'is_temp': True, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'llllllllllllIll', 'is_temp': False, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_5', 'is_temp': True, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'llllllllllllIlI', 'is_temp': False, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_6', 'is_temp': True, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'llllllllllllIIl', 'is_temp': False, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_7', 'is_temp': True, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'llllllllllllIII', 'is_temp': False, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_8', 'is_temp': True, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'lllllllllllIlll', 'is_temp': False, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_9', 'is_temp': True, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'lllllllllllIllI', 'is_temp': False, 'var_type': 'object', 'owner': '__main__'}>,exploit.py:1/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_10', 'is_temp': True, 'var_type': 'object', 'owner': '__main__'}>.
+Nuitka-Optimization: exploit.py:1 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_1' is not released.
+Nuitka-Optimization: exploit.py:1 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_2' is not released.
+Nuitka-Optimization: exploit.py:1 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_3' is not released.
+Nuitka-Optimization: exploit.py:1 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_4' is not released.
+Nuitka-Optimization: exploit.py:1 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_5' is not released.
+Nuitka-Optimization: exploit.py:1 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_6' is not released.
+Nuitka-Optimization: exploit.py:1 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_7' is not released.
+Nuitka-Optimization: exploit.py:1 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_8' is not released.
+Nuitka-Optimization: exploit.py:1 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_9' is not released.
+Nuitka-Optimization: exploit.py:1 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_10' is not released.
+Nuitka-Optimization: exploit.py:3 : new_expression : Lowered import standard library module 'os' to hard import.
+Nuitka-Optimization: exploit.py:3 : new_statements : Assignment source is now known to be hard import.
+Nuitka-Optimization: exploit.py:32 : new_statements : Reduced scope of tried block. Trailing statements at exploit.py:32/<Node 'STATEMENT_RELEASE_VARIABLE_TEMP' with {'variable_name': 'tuple_unpack_1__source_iter', 'owner': '__main__$$$function__2_IIllIlIIlllllIIIlI$$$genexpr__1_genexpr'}>,exploit.py:32/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'x', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__2_IIllIlIIlllllIIIlI$$$genexpr__1_genexpr'}>,exploit.py:32/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_1', 'is_temp': True, 'var_type': 'object', 'owner': '__main__$$$function__2_IIllIlIIlllllIIIlI$$$genexpr__1_genexpr'}>,exploit.py:32/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'y', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__2_IIllIlIIlllllIIIlI$$$genexpr__1_genexpr'}>,exploit.py:32/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_2', 'is_temp': True, 'var_type': 'object', 'owner': '__main__$$$function__2_IIllIlIIlllllIIIlI$$$genexpr__1_genexpr'}>.
+Nuitka-Optimization: exploit.py:32 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_1' is not released.
+Nuitka-Optimization: exploit.py:32 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_2' is not released.
+Nuitka-Optimization: exploit.py:32 : new_statements : Reduced scope of tried block. Trailing statements at exploit.py:32/<Node 'STATEMENT_RELEASE_VARIABLE_TEMP' with {'variable_name': 'iter_value_0', 'owner': '__main__$$$function__2_IIllIlIIlllllIIIlI$$$genexpr__1_genexpr'}>.
+Nuitka-Optimization: exploit.py:32 : new_statements : Removed dead statements.
+Nuitka-Optimization: exploit.py:45 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:45/<Node 'STATEMENT_PRESERVE_FRAME_EXCEPTION' with {'preserver_id': 1}>,exploit.py:45/<Node 'STATEMENT_PUBLISH_EXCEPTION'>.
+Nuitka-Optimization: exploit.py:45 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:45/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'lllIlllIIIllIllIll', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__4_IlIlIIIIIIlIIllIIl'}>.
+Nuitka-Optimization: exploit.py:45 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:45/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'lllIlllIIIllIllIll', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__4_IlIlIIIIIIlIIllIIl'}>.
+Nuitka-Optimization: exploit.py:54 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:54/<Node 'STATEMENT_PRESERVE_FRAME_EXCEPTION' with {'preserver_id': 1}>,exploit.py:54/<Node 'STATEMENT_PUBLISH_EXCEPTION'>.
+Nuitka-Optimization: exploit.py:54 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:54/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'IlIlIlllIIlIIIIlll', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__5_lIIlIIllIlIlIllIIl'}>.
+Nuitka-Optimization: exploit.py:54 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:54/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'IlIlIlllIIlIIIIlll', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__5_lIIlIIllIlIlIllIIl'}>.
+Nuitka-Optimization: exploit.py:95 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:95/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_CONSTANT_MUTABLE' with {'variable_name': 'listcomp_1__contraction', 'is_temp': True, 'var_type': 'object', 'owner': '__main__$$$function__6_IIlIIllIllIIllIIll'}>.
+Nuitka-Optimization: exploit.py:103 : new_expression : Attribute lookup 'join' on bytes shape resolved.
+Nuitka-Optimization: exploit.py:103 : new_expression : Call to 'join' of bytes recognized.
+Nuitka-Optimization: exploit.py:117 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:117/<Node 'STATEMENT_PRESERVE_FRAME_EXCEPTION' with {'preserver_id': 1}>,exploit.py:117/<Node 'STATEMENT_PUBLISH_EXCEPTION'>.
+Nuitka-Optimization: exploit.py:117 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:117/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'IlIlIlllIIlIIIIlll', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__9_IIlllIllIllIIllIll'}>.
+Nuitka-Optimization: exploit.py:117 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:117/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'IlIlIlllIIlIIIIlll', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__9_IIlllIllIllIIllIll'}>.
+Nuitka-Optimization: exploit.py:123 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:123/<Node 'STATEMENT_PRESERVE_FRAME_EXCEPTION' with {'preserver_id': 2}>,exploit.py:123/<Node 'STATEMENT_PUBLISH_EXCEPTION'>.
+Nuitka-Optimization: exploit.py:123 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:123/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'IlIlIlllIIlIIIIlll', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__9_IIlllIllIllIIllIll'}>.
+Nuitka-Optimization: exploit.py:123 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:123/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'IlIlIlllIIlIIIIlll', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__9_IIlllIllIllIIllIll'}>.
+Nuitka-Optimization: exploit.py:128 : new_expression : Attribute lookup 'join' on str shape resolved.
+Nuitka-Optimization: exploit.py:128 : new_statements : Reduced scope of tried block. Trailing statements at exploit.py:128/<Node 'STATEMENT_RELEASE_VARIABLE_TEMP' with {'variable_name': 'iter_value_0', 'owner': '__main__$$$function__10_lllIllllllIIIIIIll$$$genexpr__1_genexpr'}>.
+Nuitka-Optimization: exploit.py:128 : new_statements : Removed dead statements.
+Nuitka-Optimization: exploit.py:128 : new_expression : Call to 'join' of str recognized.
+Nuitka-Optimization: exploit.py:128 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:128/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_CONSTANT_MUTABLE' with {'variable_name': 'listcomp_1__contraction', 'is_temp': True, 'var_type': 'object', 'owner': '__main__$$$function__10_lllIllllllIIIIIIll'}>.
+Nuitka-Optimization: exploit.py:131 : new_statements : Reduced scope of tried block. Trailing statements at exploit.py:131/<Node 'STATEMENT_RELEASE_VARIABLE_TEMP' with {'variable_name': 'tuple_unpack_1__source_iter', 'owner': '__main__$$$function__11_IlIlllIllIIllIIIIl'}>,exploit.py:131/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'llIIIIlIIlIIIIIIlI', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__11_IlIlllIllIIllIIIIl'}>,exploit.py:131/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_1', 'is_temp': True, 'var_type': 'object', 'owner': '__main__$$$function__11_IlIlllIllIIllIIIIl'}>,exploit.py:131/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'lllIIlIIIllllIIIlI', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__11_IlIlllIllIIllIIIIl'}>,exploit.py:131/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_2', 'is_temp': True, 'var_type': 'object', 'owner': '__main__$$$function__11_IlIlllIllIIllIIIIl'}>,exploit.py:131/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_FROM_TEMP_VARIABLE' with {'variable_name': 'IlIIlllIIlIIIIIIII', 'is_temp': False, 'var_type': 'object', 'owner': '__main__$$$function__11_IlIlllIllIIllIIIIl'}>,exploit.py:131/<Node 'STATEMENT_DEL_VARIABLE_TOLERANT' with {'variable_name': 'tuple_unpack_1__element_3', 'is_temp': True, 'var_type': 'object', 'owner': '__main__$$$function__11_IlIlllIllIIllIIIIl'}>.
+Nuitka-Optimization: exploit.py:131 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_1' is not released.
+Nuitka-Optimization: exploit.py:131 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_2' is not released.
+Nuitka-Optimization: exploit.py:131 : new_statements : Uninitialized temp variable 'tuple_unpack_1__element_3' is not released.
+Nuitka-Optimization: exploit.py:27 : var_usage : Schedule removal releases of unassigned parameter variable 'IIllIlIlIlIIlIIlII'.
+Nuitka-Optimization: exploit.py:27 : var_usage : Schedule removal releases of unassigned parameter variable 'llIlIIIIIIIIIIlIlI'.
+Nuitka-Optimization: exploit.py:31 : var_usage : Schedule removal releases of unassigned parameter variable 'IIlllIIlIIlIllllll'.
+Nuitka-Optimization: exploit.py:31 : var_usage : Schedule removal releases of unassigned parameter variable 'IlIIIllIlIIlIlllII'.
+Nuitka-Optimization: exploit.py:34 : var_usage : Schedule removal releases of unassigned parameter variable 'IIIllIlllIIllIllII'.
+Nuitka-Optimization: exploit.py:34 : var_usage : Schedule removal releases of unassigned parameter variable 'IIllIlIIlIlllIlIII'.
+Nuitka-Optimization: exploit.py:92 : var_usage : Schedule removal releases of unassigned parameter variable 'lIlllllIlIlIlIIIIl'.
+Nuitka-Optimization: exploit.py:105 : var_usage : Schedule removal releases of unassigned parameter variable 'IIllIlIlIlIIlIIlII'.
+Nuitka-Optimization: exploit.py:105 : var_usage : Schedule removal releases of unassigned parameter variable 'lIlllllIlIlIlIIIIl'.
+Nuitka-Optimization: exploit.py:112 : var_usage : Schedule removal releases of unassigned parameter variable 'IIllIlIlIlIIlIIlII'.
+Nuitka-Optimization: exploit.py:112 : var_usage : Schedule removal releases of unassigned parameter variable 'lIlllllIlIlIlIIIIl'.
+Nuitka-Optimization: exploit.py:116 : var_usage : Schedule removal releases of unassigned parameter variable 'IIlIIlIlIIllIlllII'.
+Nuitka-Optimization: exploit.py:116 : var_usage : Schedule removal releases of unassigned parameter variable 'IIIllIlllIIllIllII'.
+Nuitka-Optimization: exploit.py:126 : var_usage : Schedule removal releases of unassigned parameter variable 'llIIlIIlIllIIIllIl'.
+Nuitka-Optimization: exploit.py:130 : var_usage : Schedule removal releases of unassigned parameter variable 'IIlIllIIlIIIIlIllI'.
+Nuitka-Optimization: exploit.py:1 : new_builtin_ref : Module variable 'bytes' found to be built-in reference.
+Nuitka-Optimization: exploit.py:1 : new_builtin_ref : Module variable 'str' found to be built-in reference.
+Nuitka-Optimization: exploit.py:1 : new_builtin_ref : Module variable 'Exception' found to be built-in exception reference.
+Nuitka-Optimization: exploit.py:1 : new_builtin_ref : Module variable 'PermissionError' found to be built-in exception reference.
+Nuitka-Optimization: exploit.py:1 : new_builtin_ref : Module variable 'range' found to be built-in reference.
+Nuitka-Optimization: exploit.py:1 : new_builtin_ref : Module variable 'zip' found to be built-in reference.
+Nuitka-Optimization: exploit.py:1 : new_builtin_ref : Module variable 'OSError' found to be built-in exception reference.
+Nuitka-Optimization: exploit.py:1 : new_builtin_ref : Module variable 'open' found to be built-in reference.
+Nuitka-Optimization: exploit.py:1 : new_builtin_ref : Module variable 'len' found to be built-in reference.
+Nuitka-Optimization: exploit.py:1 : new_builtin_ref : Module variable 'int' found to be built-in reference.
+Nuitka-Optimization: exploit.py:1 : new_constant : Tuple with constant arguments. Predicted constant result.
+Nuitka-Optimization: exploit.py:1 : new_statements : Reduced scope of tried block. Leading statements at exploit.py:1/<Node 'STATEMENT_ASSIGNMENT_VARIABLE_ITERATOR' with {'variable_name': 'tuple_unpack_1__source_iter', 'is_temp': True, 'var_type': 'object', 'owner': '__main__'}>.
+Nuitka-Optimization: exploit.py:27 : new_statements : Original parameter variable value of 'IIllIlIlIlIIlIIlII' is not released.
+Nuitka-Optimization: exploit.py:27 : new_statements : Original parameter variable value of 'llIlIIIIIIIIIIlIlI' is not released.
+Nuitka-Optimization: exploit.py:27 : new_statements : Original parameter variable value of 'IIllIlIlIlIIlIIlII' is not released.
+Nuitka-Optimization: exploit.py:27 : new_statements : Original parameter variable value of 'llIlIIIIIIIIIIlIlI' is not released.
+Nuitka-Optimization: exploit.py:32 : loop_analysis : Loop has incomplete variable types after 1 attempts for 'iter_value_0,x,y,tuple_unpack_1__source_iter'.
+Nuitka-Optimization: exploit.py:31 : new_statements : Original parameter variable value of 'IIlllIIlIIlIllllll' is not released.
+Nuitka-Optimization: exploit.py:31 : new_statements : Original parameter variable value of 'IlIIIllIlIIlIlllII' is not released.
+Nuitka-Optimization: exploit.py:31 : new_statements : Original parameter variable value of 'IIlllIIlIIlIllllll' is not released.
+Nuitka-Optimization: exploit.py:31 : new_statements : Original parameter variable value of 'IlIIIllIlIIlIlllII' is not released.
+Nuitka-Optimization: exploit.py:31 : new_statements : Removed useless try, all handlers became empty.
+Nuitka-Optimization: exploit.py:34 : new_statements : Original parameter variable value of 'IIIllIlllIIllIllII' is not released.
+Nuitka-Optimization: exploit.py:34 : new_statements : Original parameter variable value of 'IIllIlIIlIlllIlIII' is not released.
+Nuitka-Optimization: exploit.py:34 : new_statements : Original parameter variable value of 'IIIllIlllIIllIllII' is not released.
+Nuitka-Optimization: exploit.py:34 : new_statements : Original parameter variable value of 'IIllIlIIlIlllIlIII' is not released.
+Nuitka-Optimization: exploit.py:95 : loop_analysis : Loop has incomplete variable types after 1 attempts for 'listcomp_1__iter_value_0,IllIlllIlIlIllllII'.
+Nuitka-Optimization: exploit.py:101 : new_expression : Attribute lookup 'append' on list shape resolved.
+Nuitka-Optimization: exploit.py:101 : new_expression : Call to 'append' of list recognized.
+Nuitka-Optimization: exploit.py:98 : loop_analysis : Loop has incomplete variable types after 1 attempts for 'for_loop_1__iter_value,IlIIlllIIlIIllIlll,lIlllIIIllIllIIIlI,lllIIIlIIlIIIlIIlI'.
+Nuitka-Optimization: exploit.py:92 : new_statements : Original parameter variable value of 'lIlllllIlIlIlIIIIl' is not released.
+Nuitka-Optimization: exploit.py:92 : new_statements : Original parameter variable value of 'lIlllllIlIlIlIIIIl' is not released.
+Nuitka-Optimization: exploit.py:105 : new_statements : Original parameter variable value of 'IIllIlIlIlIIlIIlII' is not released.
+Nuitka-Optimization: exploit.py:105 : new_statements : Original parameter variable value of 'lIlllllIlIlIlIIIIl' is not released.
+Nuitka-Optimization: exploit.py:105 : new_statements : Original parameter variable value of 'IIllIlIlIlIIlIIlII' is not released.
+Nuitka-Optimization: exploit.py:105 : new_statements : Original parameter variable value of 'lIlllllIlIlIlIIIIl' is not released.
+Nuitka-Optimization: exploit.py:112 : new_statements : Original parameter variable value of 'IIllIlIlIlIIlIIlII' is not released.
+Nuitka-Optimization: exploit.py:112 : new_statements : Original parameter variable value of 'lIlllllIlIlIlIIIIl' is not released.
+Nuitka-Optimization: exploit.py:112 : new_statements : Original parameter variable value of 'IIllIlIlIlIIlIIlII' is not released.
+Nuitka-Optimization: exploit.py:112 : new_statements : Original parameter variable value of 'lIlllllIlIlIlIIIIl' is not released.
+Nuitka-Optimization: exploit.py:116 : new_statements : Original parameter variable value of 'IIlIIlIlIIllIlllII' is not released.
+Nuitka-Optimization: exploit.py:116 : new_statements : Original parameter variable value of 'IIIllIlllIIllIllII' is not released.
+Nuitka-Optimization: exploit.py:116 : new_statements : Original parameter variable value of 'IIlIIlIlIIllIlllII' is not released.
+Nuitka-Optimization: exploit.py:116 : new_statements : Original parameter variable value of 'IIIllIlllIIllIllII' is not released.
+Nuitka-Optimization: exploit.py:128 : loop_analysis : Loop has incomplete variable types after 1 attempts for 'iter_value_0,lIIIIIlIlIlIIlIlll'.
+Nuitka-Optimization: exploit.py:128 : loop_analysis : Loop has incomplete variable types after 1 attempts for 'lIIIIIlIlIlIIlIlll,listcomp_1__iter_value_0,listcomp$genexpr_1__.0'.
+Nuitka-Optimization: exploit.py:126 : new_statements : Original parameter variable value of 'llIIlIIlIllIIIllIl' is not released.
+Nuitka-Optimization: exploit.py:126 : new_statements : Original parameter variable value of 'llIIlIIlIllIIIllIl' is not released.
+Nuitka-Optimization: exploit.py:131 : loop_analysis : Loop has incomplete variable types after 1 attempts for 'for_loop_2__for_iterator,for_loop_1__iter_value,IlIIlllIIlIIIIIIII,llIIIIlIIlIIIIIIlI,tuple_unpack_1__source_iter,lllIIlIIIllllIIIlI'.
+Nuitka-Optimization: exploit.py:130 : new_statements : Original parameter variable value of 'IIlIllIIlIIIIlIllI' is not released.
+Nuitka-Optimization: exploit.py:130 : new_statements : Original parameter variable value of 'IIlIllIIlIIIIlIllI' is not released.
+Nuitka-Optimization: exploit.py:126 : var_usage : Schedule removal releases of unassigned parameter variable 'IIIllllIIIlIIIIlll'.
+Nuitka-Optimization: exploit.py:32 : loop_analysis : Loop has complete variable types after 1 attempts.
+Nuitka-Optimization: exploit.py:95 : loop_analysis : Loop has complete variable types after 1 attempts.
+Nuitka-Optimization: exploit.py:98 : loop_analysis : Loop has complete variable types after 1 attempts.
+Nuitka-Optimization: exploit.py:92 : var_usage : Loop variable 'IIllIlIlIlIIlIIlII' usage ceased.
+Nuitka-Optimization: exploit.py:128 : loop_analysis : Loop has complete variable types after 1 attempts.
+Nuitka-Optimization: exploit.py:128 : loop_analysis : Loop has complete variable types after 1 attempts.
+Nuitka-Optimization: exploit.py:126 : new_statements : Original parameter variable value of 'IIIllllIIIlIIIIlll' is not released.
+Nuitka-Optimization: exploit.py:126 : new_statements : Original parameter variable value of 'IIIllllIIIlIIIIlll' is not released.
+Nuitka-Optimization: exploit.py:132 : loop_analysis : Loop has incomplete variable types after 1 attempts for 'for_loop_2__iter_value,IllIIlIIllllllIIlI,lllIlllIIIllIllIll,IIlIIlIlIIllIlllII'.
+Nuitka-Optimization: exploit.py:131 : loop_analysis : Loop has complete variable types after 1 attempts.
+Nuitka-Optimization: exploit.py:132 : loop_analysis : Loop has complete variable types after 1 attempts.
+Nuitka-Optimization: exploit.py:131 : loop_analysis : Loop has incomplete variable types after 1 attempts for 'IllIIlIIllllllIIlI,for_loop_2__iter_value,lllIlllIIIllIllIll,IIlIIlIlIIllIlllII'.
+Nuitka-Optimization: exploit.py:131 : loop_analysis : Loop has complete variable types after 1 attempts.
+Nuitka-Plugins:anti-bloat: Not including 'socket' automatically in order to avoid bloat, but this may cause: can break
+Nuitka-Plugins:anti-bloat: calls of 'email.utils.make_msgid()'.
+Nuitka: Completed Python level compilation and optimization.
+Nuitka: Generating source code for C backend compiler.
+Nuitka: Running data composer tool for optimal constant value handling.
+Nuitka: Running C compilation via Scons.
+Nuitka-Scons: Scons command: C:\Users\obsession\AppData\Local\Programs\Python\Python313\python.exe -W ignore
+Nuitka-Scons: C:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\INLINE~1\bin\scons.py
+Nuitka-Scons: -f C:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\BACKEN~1.SCO --jobs
+Nuitka-Scons: 12 --warn=no-deprecated --no-site-dir --debug=stacktrace
+Nuitka-Scons: nuitka_src=C:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build
+Nuitka-Scons: python_version=3.13 python_prefix=C:\Users\obsession\AppData\Local\Programs\Python\Python313 experimental=
+Nuitka-Scons: debug_modes= deployment=false no_deployment= show_scons=true console_mode=force noelf_mode=true
+Nuitka-Scons: target_arch=x86_64 module_mode=false dll_mode=true exe_mode=false standalone_mode=true onefile_mode=true
+Nuitka-Scons: onefile_temp_mode=true gil_mode=true source_dir=. nuitka_python=false debug_mode=false debugger_mode=false
+Nuitka-Scons: python_debug=false full_compat=false trace_mode=false file_reference_mode=runtime compiled_module_count=1
+Nuitka-Scons: result_exe=C:\Users\OBSESS~1\py\build\EXPLOI~1.DIS\exploit.dll frozen_modules=154
+Nuitka-Scons: python_sysflag_no_site=true
+scons: Reading SConscript files ...
+Nuitka-Scons: Initial CC: 'cl'
+Nuitka-Scons: Initial CCVERSION: None
+Nuitka-Scons: Checking usability of binary 'C:\Program Files (x86)\Microsoft Visual
+Nuitka-Scons: Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe' from environment 'cl'.
+Nuitka-Scons: Using Windows SDK '10.0.26100.0'.
+Scons: Compiler used C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe (MSVC 14.3)
+
+Nuitka-Scons: Backend C compiler: cl (cl 14.3).
+Nuitka-Scons: LTO mode auto was resolved to mode: 'yes' (known to be supported).
+Nuitka-Scons: Using C11 mode: True
+Nuitka-Scons: Using resource mode: 'win_resource' (default for Windows).
+Nuitka-Scons: Told to run compilation on 12 CPUs.
+Nuitka-Scons: Using inline copy of clcache with 'C:\Program Files (x86)\Microsoft Visual
+Nuitka-Scons: Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe' cl binary.
+Nuitka-Scons: Launching Scons target: ['C:\\Users\\OBSESS~1\\py\\build\\EXPLOI~1.DIS\\exploit.dll']
+scons: done reading SConscript files.
+scons: Building targets ...
+<clcache> /Fo__constants.obj /c __constants.c /std:c11 /nologo /GL /wd5105 /wd4391 /Ox /GF /Gy /EHsc /J /Gd /bigobj /LD /D_NUITKA_STANDALONE_MODE /D_NUITKA_ONEFILE_MODE /D_NUITKA_ONEFILE_TEMP_BOOL /D_NUITKA_DLL_MODE /D_NUITKA_ONEFILE_DLL_MODE /D_WIN32_WINNT=0x0601 /D__NUITKA_NO_ASSERT__ /D_NUITKA_CONSTANTS_FROM_RESOURCE /D_NUITKA_FROZEN=154 /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\include\internal\mimalloc /I. /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\libbacktrace
+<clcache> /Fo__helpers.obj /c __helpers.c /std:c11 /nologo /GL /wd5105 /wd4391 /Ox /GF /Gy /EHsc /J /Gd /bigobj /LD /D_NUITKA_STANDALONE_MODE /D_NUITKA_ONEFILE_MODE /D_NUITKA_ONEFILE_TEMP_BOOL /D_NUITKA_DLL_MODE /D_NUITKA_ONEFILE_DLL_MODE /D_WIN32_WINNT=0x0601 /D__NUITKA_NO_ASSERT__ /D_NUITKA_CONSTANTS_FROM_RESOURCE /D_NUITKA_FROZEN=154 /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\include\internal\mimalloc /I. /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\libbacktrace
+<clcache> /Fo__loader.obj /c __loader.c /std:c11 /nologo /GL /wd5105 /wd4391 /Ox /GF /Gy /EHsc /J /Gd /bigobj /LD /D_NUITKA_STANDALONE_MODE /D_NUITKA_ONEFILE_MODE /D_NUITKA_ONEFILE_TEMP_BOOL /D_NUITKA_DLL_MODE /D_NUITKA_ONEFILE_DLL_MODE /D_WIN32_WINNT=0x0601 /D__NUITKA_NO_ASSERT__ /D_NUITKA_CONSTANTS_FROM_RESOURCE /D_NUITKA_FROZEN=154 /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\include\internal\mimalloc /I. /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\libbacktrace
+<clcache> /Fomodule.__main__.obj /c module.__main__.c /std:c11 /nologo /GL /wd5105 /wd4391 /Ox /GF /Gy /EHsc /J /Gd /bigobj /LD /D_NUITKA_STANDALONE_MODE /D_NUITKA_ONEFILE_MODE /D_NUITKA_ONEFILE_TEMP_BOOL /D_NUITKA_DLL_MODE /D_NUITKA_ONEFILE_DLL_MODE /D_WIN32_WINNT=0x0601 /D__NUITKA_NO_ASSERT__ /D_NUITKA_CONSTANTS_FROM_RESOURCE /D_NUITKA_FROZEN=154 /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\include\internal\mimalloc /I. /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\libbacktrace
+<clcache> /Fostatic_src\MainProgram.obj /c static_src\MainProgram.c /std:c11 /nologo /GL /wd5105 /wd4391 /Ox /GF /Gy /EHsc /J /Gd /bigobj /LD /D_NUITKA_STANDALONE_MODE /D_NUITKA_ONEFILE_MODE /D_NUITKA_ONEFILE_TEMP_BOOL /D_NUITKA_DLL_MODE /D_NUITKA_ONEFILE_DLL_MODE /D_WIN32_WINNT=0x0601 /D__NUITKA_NO_ASSERT__ /D_NUITKA_CONSTANTS_FROM_RESOURCE /D_NUITKA_FROZEN=154 /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\include\internal\mimalloc /I. /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\libbacktrace
+<clcache> /Fostatic_src\CompiledFunctionType.obj /c static_src\CompiledFunctionType.c /std:c11 /nologo /GL /wd5105 /wd4391 /Ox /GF /Gy /EHsc /J /Gd /bigobj /LD /D_NUITKA_STANDALONE_MODE /D_NUITKA_ONEFILE_MODE /D_NUITKA_ONEFILE_TEMP_BOOL /D_NUITKA_DLL_MODE /D_NUITKA_ONEFILE_DLL_MODE /D_WIN32_WINNT=0x0601 /D__NUITKA_NO_ASSERT__ /D_NUITKA_CONSTANTS_FROM_RESOURCE /D_NUITKA_FROZEN=154 /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\include\internal\mimalloc /I. /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\libbacktrace
+Nuitka-Scons: Backend C linking with 6 files (no progress information available for this stage).
+link /nologo /LTCG /CGTHREADS:12 /INCREMENTAL:NO /IMPLIB:.\import.lib /dll /out:C:\Users\OBSESS~1\py\build\EXPLOI~1.DIS\exploit.dll /LIBPATH:C:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\libs Shell32.lib python313.lib __constants.obj __helpers.obj __loader.obj module.__main__.obj static_src\MainProgram.obj static_src\CompiledFunctionType.obj
+scons: done building targets.
+Nuitka-Scons: Compiled 6 C files using clcache with 6 cache hits and 0 cache misses.
+Nuitka-Postprocessing: Creating single file from dist folder, this may take a while.
+Nuitka-Onefile: Running bootstrap binary compilation via Scons.
+Nuitka-Scons: Scons command: C:\Users\obsession\AppData\Local\Programs\Python\Python313\python.exe -W ignore
+Nuitka-Scons: C:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\INLINE~1\bin\scons.py
+Nuitka-Scons: -f C:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\ONEFIL~1.SCO --jobs
+Nuitka-Scons: 12 --warn=no-deprecated --no-site-dir --debug=stacktrace
+Nuitka-Scons: nuitka_src=C:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build
+Nuitka-Scons: python_version=3.13 python_prefix=C:\Users\obsession\AppData\Local\Programs\Python\Python313 experimental=
+Nuitka-Scons: debug_modes= deployment=false no_deployment= show_scons=true console_mode=force noelf_mode=true
+Nuitka-Scons: target_arch=x86_64 module_mode=false dll_mode=true exe_mode=false standalone_mode=true onefile_mode=true
+Nuitka-Scons: onefile_temp_mode=true result_exe=C:\Users\OBSESS~1\py\build\exploit.exe source_dir=. debug_mode=false
+Nuitka-Scons: trace_mode=false onefile_splash_screen=false
+scons: Reading SConscript files ...
+Nuitka-Scons: Initial CC: 'cl'
+Nuitka-Scons: Initial CCVERSION: None
+Nuitka-Scons: Checking usability of binary 'C:\Program Files (x86)\Microsoft Visual
+Nuitka-Scons: Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe' from environment 'cl'.
+Nuitka-Scons: Using Windows SDK '10.0.26100.0'.
+Scons: Compiler used C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe (MSVC 14.3)
+
+Nuitka-Scons: Onefile C compiler: cl (cl 14.3).
+Nuitka-Scons: LTO mode auto was resolved to mode: 'yes' (known to be supported).
+Nuitka-Scons: Using C11 mode: True
+Nuitka-Scons: Told to run compilation on 12 CPUs.
+Nuitka-Scons: Using inline copy of clcache with 'C:\Program Files (x86)\Microsoft Visual
+Nuitka-Scons: Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe' cl binary.
+Nuitka-Scons: Launching Scons target: ['C:\\Users\\OBSESS~1\\py\\build\\exploit.exe']
+scons: done reading SConscript files.
+scons: Building targets ...
+<clcache> /Fostatic_src\OnefileBootstrap.obj /c static_src\OnefileBootstrap.c /std:c11 /nologo /GL /wd5105 /wd4391 /Ox /GF /Gy /EHsc /J /Gd /bigobj /MT /D_NUITKA_STANDALONE_MODE /D_NUITKA_ONEFILE_MODE /D_NUITKA_ONEFILE_TEMP_BOOL /D_NUITKA_DLL_MODE /D_NUITKA_ONEFILE_DLL_MODE /D_WIN32_WINNT=0x0601 /D__NUITKA_NO_ASSERT__ /D_NUITKA_EXE_MODE /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib /I. /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src /IC:\Users\OBSESS~1\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zstd
+Nuitka-Scons: Onefile C linking.
+link /nologo /LTCG /CGTHREADS:12 /INCREMENTAL:NO /OUT:C:\Users\OBSESS~1\py\build\exploit.exe Shell32.lib PsApi.lib static_src\OnefileBootstrap.obj
+scons: done building targets.
+Nuitka-Scons: Compiled 1 C files using clcache with 1 cache hits and 0 cache misses.
+Nuitka-Onefile: Using compression for onefile payload.
+Nuitka-Onefile: Onefile payload compression ratio (31.11%) size 19482120 to 6060221.
+Nuitka-Postprocessing:WARNING: Failed to add resources to file 'build\exploit.exe' in attempt 1 with error code 22.
+Nuitka-Postprocessing:WARNING: Disable Anti-Virus, e.g. Windows Defender for build folders.
+Retrying after a second of
+Nuitka-Postprocessing:WARNING: delay.
+Nuitka-Postprocessing:WARNING: Succeeded with add resources to file 'build\exploit.exe' in attempt 2.
+Nuitka-Onefile: Removing onefile build directory 'build\exploit.onefile-build'.
+Nuitka: Removing dist folder 'build\exploit.dist'.
+Nuitka: Removing build directory 'build\exploit.build'.
+Nuitka: Successfully created '~\py\build\exploit.exe'.
